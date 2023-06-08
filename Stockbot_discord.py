@@ -1,12 +1,15 @@
 import discord
 import requests
 import datetime
+import os 
+from dotenv import load_dotenv
 
+load_dotenv()
 intents = discord.Intents.default()
 intents.message_content = True 
 client = discord.Client(intents=intents)
-api_key = 'TOEIMD2DW5Z0USZG'
-bot = 'MTExMTE4Mzg4MzkyNTQ2NzIyNg.GGEgsn.MUmE2pZfqJpTKCsnLAs9l0f8iU8BVKP_eQwiMc'
+api_key = os.getenv('API')
+bot = os.getenv('bot_api')
 
 
 def get_data(symbol):
