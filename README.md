@@ -2,4 +2,4 @@
 Our project aims to fetch real-time stock data from the Alpha Vantage API and organize it into an Excel sheet and utilize a public discord bot to implement with it. 
 By leveraging the power of the Alpha Vantage API, we can retrieve comprehensive stock information such as prices, volumes, and other metrics. Using a programming language - python, we will create an HTTP request to the API, parse the received data, and store it in a convenient data structure. We will then utilize libraries like xlsxwriter to integrate the parsed data into an Excel sheet, ensuring proper formatting and column organization. To provide easy access to this information, we will also develop a Discord bot. This bot will display the stock data upon command, reading the relevant details from the Excel sheet and presenting them in a user-friendly manner within Discord. This project combines the power of API integration, data parsing, Excel manipulation, and Discord bot development to provide a comprehensive solution for accessing real-time stock data
 
-env files are not included in this repository as they contain sensitive information.  
+This project is still under process. 
